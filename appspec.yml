@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /opt/sp-backend-app
+    destination: /opt/sp-backend-app-ecr
 hooks:
   ApplicationStop:
     - location: docker-scripts/stop.sh
